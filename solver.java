@@ -19,9 +19,6 @@ public class solver{
                 }
             }
             System.out.println("");
-
         }
-
-
     }
 }
