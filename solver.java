@@ -3,6 +3,7 @@ public class solver{
     public static void main(String[] args){
         int[][] a= new int[9][9];
         int[] ch=new int[9];
+        
         Scanner sc=new Scanner(System.in);
         for (int i=0;i<=8;i++){
             for(int j=0;j<=8;j++){
