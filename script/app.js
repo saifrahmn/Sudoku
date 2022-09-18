@@ -12,6 +12,9 @@ for(let i=0;i<=8;i++){
                 if(j==3||j==4||j==5){
                     continue;
                 }
+                else{
+                    grid[j][0]==
+                }
             }
         }
         else if(2>i%3>=1){
