@@ -23,9 +23,56 @@ function solver(grid){
             if(grid[j][i]==0){
                 let k=0;
                     for(let v=0;v<=8;v++){
-                        if(v!=grid[i][j])
-                        arr[i][k]=v;
-                        k++;
+                        if(j<=2){
+                            if(i<=2){
+                                for(let x=0;x<=8;x++)
+
+                                    if(v!=grid[x][i]&&grid[x][i]!=0){
+                                        arr[k][i]=v;
+                                        k++;
+                                    }
+                                }
+
+                                    for(let y=0;y<=8;y++){
+                                        
+                                        if(v!=grid[j][y]&&grid[j][y]!=0){
+                                            arr[k][i]=v;
+                                            k++;
+                                        }
+                                    }
+                                
+                                
+                            }
+                            else if(i>=6){
+
+                            }
+                            else{
+
+                            }
+                        }
+                        else if(j>=6){
+                            if(i<=2){
+
+                            }
+                            else if(i>=6){
+
+                            }
+                            else{
+                                
+                            }
+                        }
+                        else{
+                            if(i<=2){
+
+                            }
+                            else if(i>=6){
+
+                            }
+                            else{
+                                
+                            }
+                        }
+                        
                     }
                 }
                 
