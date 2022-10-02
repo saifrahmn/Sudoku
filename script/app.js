@@ -12,12 +12,101 @@ var grid=   [[8,3,0,0,1,0,9,0,7],
             [9,0,1,0,4,5,2,7,6],
             [3,7,4,0,6,0,8,0,5]];
 
+function input(n){
+    for(let i=0;i<=2;i++){
+        for(let j=0;j<=2;j++){
+            if(v!=grid[j][y]&&grid[j][i]!=0)
+            for(let i=0;i<=8;i++){
+                if(v!=grid)
+                for(let j=0;j<=8;j++){
+                    if(v!=grid[i][j]){
+                        arr[]=
+                    }
+                }
+            
+        }
+        
+    }
+}
+}
 solver(grid);
 function solver(grid){
     var arr= new Array(9);
     for(let i=0;i<=8;i++){
-        arr[i]= new Array(9);
+        arr[i]= new Array(17);
     }
+    for(let i=0;i<=8;i++){
+        for(let j=0;j<=8;j++){
+            if(grid[j][i]==0){
+                if(i<=2){
+                    if(j<=2){
+                        input(2);
+                    }
+                    else if(j<=5{
+                        input(5);
+                    }
+
+            }
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
     for(let i=0;i<=8;i++){
         for(let j=0;j<=8;j++){
             if(grid[j][i]==0){
