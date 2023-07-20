@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "testscript": "node extraction",
+    "testrun":"yarn testscript"
+  },
+  "dependencies": {
+    "tesseract.js": "^4.1.1"
+  }
+}
