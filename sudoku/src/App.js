@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 
-const sudokuArr = 
+
+function App() {
+  var sudokuArr = 
 [
   [-1, 5, -1, 9, -1, -1, -1, -1, -1],
   [8, -1, -1, -1, 4, -1, 3, -1, 7],
@@ -14,8 +16,7 @@ const sudokuArr =
   [-1, 4, 5, -1, -1, -1, 2, -1, 9],
   [-1, -1, -1, -1, 3, -1, -1, 7, -1]
 ]
-function App() {
-  const [sudokuArr, setSudokuArr] = useState(initial);
+ 
 
   return (
     <div className="App">
